@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="css/meu-estilo.css" type="text/css">
+
+    <title>Segundo exemplo</title>
+</head>
+
+<body>
+    <div class="container container-fluid">
+        <div id="navbar">
+            <nav class="navbar navbar-expand-lg" style="background-color: #ee91e0;">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled">Disabled</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div id="carrossel" class="container container-fluid" style="height: 100;">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="imagem/woman-g991293835_1920.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="imagem/workplace-g3c6ead7c6_1920.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagem/code-g65504eedc_1920.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div id="colunas">
+            <div class="container container-fluid" style="margin:10px 0px 10px 0px;">
+                <div class="titulos" style="padding: 5px 0px ; text-align: center;
+                margin: 50px auto;">
+                    <h1>Conheça meus serviços</h1>
+                </div>
+                <div class="row  row-cols-3 text-center">
+
+                    <div class="col">
+                        <div class="card" style="width: 15rem; margin-left: 15%;">
+                            <img src="imagem/code-g65504eedc_1920.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Profissional Freelancer</h5>
+                                <p class="card-text">Crio sistemas informatizados para escritorios,
+                                    condominios e supermercados, utilizando a linguagem java.
+                                </p>
+                                <a href="#" class="btn btn-info">Entre em contato</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card" style="width: 15rem; margin-left: 15%;">
+                            <img src="imagem/code-g65504eedc_1920.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Profissional Freelancer</h5>
+                                <p class="card-text">Crio sistemas informatizados para escritorios,
+                                    condominios e supermercados, utilizando a linguagem java.
+                                </p>
+                                <a href="#" class="btn btn-info">Entre em contato</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card" style="width: 15rem; margin-left: 15%;">
+                            <img src="imagem/code-g65504eedc_1920.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Profissional Freelancer</h5>
+                                <p class="card-text">Crio sistemas informatizados para escritorios,
+                                    condominios e supermercados, utilizando a linguagem java.
+                                </p>
+                                <a href="#" class="btn btn-info">Entre em contato</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div id="informacao" style="margin: 100px auto 25px auto; ">
+            <div class="container container-fluid">
+                <div class="row">
+                    <div class="col-lg-6" style="height: 500px; margin-top: 100px;">
+
+                        <div class="barra">
+                            <h6>Habilidades em html 5</h6>
+                        </div>
+
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 25%"
+                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                        <div class="barra">
+                            <h6>Habilidades em css 3</h6>
+                        </div>
+
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                        <div class="barra">
+                            <h6>Habilidades em JS</h6>
+                        </div>
+
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                        <div class="barra">
+                            <h6>Habilidades em java</h6>
+                        </div>
+
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 100%"
+                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                        <div id="botao">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#meuModal">
+                                Saiba mais
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="meuModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Entre em contato</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form class="row g-3">
+                                                <div class="col-md-4">
+                                                    <label for="validationDefault01" class="form-label">Nome
+                                                    </label>
+                                                    <input type="text" class="form-control" id="validationDefault01"
+                                                        placeholder="Nome aqui" required>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <label for="validationDefault02" class="form-label">Sobre Nome
+                                                    </label>
+                                                    <input type="text" class="form-control" id="validationDefault02"
+                                                        placeholder="Sobre nome aqui" required>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <label for="validationDefaultUsername"
+                                                        class="form-label">Email</label>
+                                                    <div class="input-group">
+                                                        <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                                                        <input type="email" class="form-control"
+                                                            id="validationDefaultUsername"
+                                                            aria-describedby="inputGroupPrepend2" required>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label for="validationDefault03" class="form-label">Cidade</label>
+                                                    <input type="text" class="form-control" id="validationDefault03"
+                                                        required>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <label for="validationDefault04" class="form-label">Estado</label>
+                                                    <select class="form-select" id="validationDefault04" required>
+                                                        <option selected disabled value="">Estado...</option>
+                                                        <option>DF</option>
+                                                        <option>TO</option>
+                                                        <option>SP</option>
+                                                        <option>RJ</option>
+                                                        <option>RS</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <label for="validationDefault05" class="form-label">CEP</label>
+                                                    <input type="text" class="form-control" id="validationDefault05"
+                                                        required>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="invalidCheck2" required>
+                                                        <label class="form-check-label" for="invalidCheck2">
+                                                            Receber novidades no e-mail
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <button class="btn btn-success" type="submit">Enviar</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger"
+                                                data-bs-dismiss="modal">Fechar</button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 align-items-center">
+                        <div class="row align-items-center" style="margin-top: 15%;">
+                            <div class="col-6 ">
+                                <span>
+                                    <h4><i class="bi bi-laptop"></i> Sites para empresas</h4>
+                                </span>
+                                <p>
+                                    Sites profissionais e sistemas completos para sua empresa
+                                </p>
+
+                            </div>
+                            <div class="col-md-6">
+                                <span>
+                                    <h4><i class="bi bi-activity"></i> Destaque a sua empresa</h4>
+                                </span>
+
+                                <p>
+                                    Fazemos analise de dados para aumentar suas vendas...
+                                </p>
+
+                            </div>
+                        </div>
+
+                        <div class="row align-items-center" style="margin-top: 15%;">
+                            <div class="col-6 ">
+                                <span>
+                                    <h4><i class="bi bi-laptop"></i> Sites para empresas</h4>
+                                </span>
+                                <p>
+                                    Sites profissionais e sistemas completos para sua empresa
+                                </p>
+
+                            </div>
+                            <div class="col-md-6">
+                                <span>
+                                    <h4><i class="bi bi-activity"></i> Destaque a sua empresa</h4>
+                                </span>
+
+                                <p>
+                                    Fazemos analise de dados para aumentar suas vendas...
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container-fluid">
+            <div id="precos">
+                <div class="row row-cols-3 text-center">
+                    <div class="col">
+                        <div class="card mb-4 rounded-3">
+                            <div class="card-header py-3">
+                                <div class="my-0 fw-normal">Gratuito</div>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="card-title">
+                                    R$ 0,00
+                                    <small class="text-muted fw-light">/mês</small>
+                                </h1>
+
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>Sites simples</li>
+                                    <li>Sua empresa na internet</li>
+                                    <li>Simples mas poderoso</li>
+                                    <li><s>Suporte 24hrs</s></li>
+                                </ul>
+                                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Contrate o plano
+                                    gratuito</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card mb-4 rounded-3">
+                            <div class="card-header py-3">
+                                <div class="my-0 fw-normal">Popular</div>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="card-title">
+                                    R$ 100,00
+                                    <small class="text-muted fw-light">/mês</small>
+                                </h1>
+
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>Templates gratuitos</li>
+                                    <li>Sua empresa na internet 24 hrs</li>
+                                    <li>Ainda mais poderoso</li>
+                                    <li>Suporte 24hrs</li>
+                                </ul>
+                                <button type="button" class="w-100 btn btn-lg btn-primary">Contrate o plano
+                                    Popular</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card mb-4 rounded-3">
+                            <div class="card-header py-3">
+                                <div class="my-0 fw-normal">Pró</div>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="card-title">
+                                    R$ 250,00
+                                    <small class="text-muted fw-light">/mês</small>
+                                </h1>
+
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>Sites feito sobre demanda</li>
+                                    <li>Ads implementado</li>
+                                    <li>Sem Propagandas</li>
+                                    <li>Suporte 24hrs no local</li>
+                                </ul>
+                                <button type="button" class="w-100 btn btn-lg btn-success">Contrate o plano Pró</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="color:#fff;background-color: #ee91e0;">
+        <div class="container text-center">
+            <footer class="py-3 my-4">
+                <span class="justify-content-center  pb-3 mb-3">
+                    <h2>Site produzido por &reg; QUA.209.045</h2>
+                </span>
+                <div>
+                    <span class="justify-content-center">
+                        <h3><i class="bi bi-apple">Empresa parceira maçãzinha</i></h3>
+                    </span>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+</body>
+
+</html>

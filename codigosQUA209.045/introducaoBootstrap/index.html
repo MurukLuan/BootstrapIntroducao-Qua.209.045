@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira pagina HTML</title>
+
+    <style>
+        /*comentraio de varias linhas*/
+        .primeiroParagrafo {
+            background-color: blue;
+            color: #FFF;
+            width: 250px;
+            font-size: 16px;
+            margin: 5px 10px;
+            padding-top: 20px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        p {
+            background-color: red;
+            color: #000;
+        }
+
+        .mult {
+            background-color: coral;
+            color: #000;
+            font-size: large;
+        }
+
+        #tabela {
+            border: 2px dashed red;
+        }
+
+        .bordaLinha {
+            border: 1px dashed blue;
+        }
+
+        .bordaColuna {
+            border: 1px double yellow;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p class="primeiroParagrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Morbi vestibulum sollicitudin lorem tempus vulputate.
+        Phasellus id malesuada mi. Phasellus ac posuere mauris.
+        Sed accumsan metus luctus nulla pretium, non sollicitudin dui euismod.
+        Duis pharetra eu mauris in euismod. Proin pellentesque dui et turpis sodales
+        finibus. Pellentesque et diam quis nunc pulvinar porttitor vitae sit amet quam.
+        Ut vitae lorem nunc. Suspendisse tempor, ligula ut maximus ultrices,
+        velit ante tempus lacus, nec tempor justo tortor id ante.</p>
+    <p class="primeiroParagrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Morbi vestibulum sollicitudin lorem tempus vulputate.
+        Phasellus id malesuada mi. Phasellus ac posuere mauris.
+        Sed accumsan metus luctus nulla pretium, non sollicitudin dui euismod.
+        Duis pharetra eu mauris in euismod. Proin pellentesque dui et turpis sodales
+        finibus. Pellentesque et diam quis nunc pulvinar porttitor vitae sit amet quam.
+        Ut vitae lorem nunc. Suspendisse tempor, ligula ut maximus ultrices,
+        velit ante tempus lacus, nec tempor justo tortor id ante.</p>
+    <p class="primeiroParagrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Morbi vestibulum sollicitudin lorem tempus vulputate.
+        Phasellus id malesuada mi. Phasellus ac posuere mauris.
+        Sed accumsan metus luctus nulla pretium, non sollicitudin dui euismod.
+        Duis pharetra eu mauris in euismod. Proin pellentesque dui et turpis sodales
+        finibus. Pellentesque et diam quis nunc pulvinar porttitor vitae sit amet quam.
+        Ut vitae lorem nunc. Suspendisse tempor, ligula ut maximus ultrices,
+        velit ante tempus lacus, nec tempor justo tortor id ante.</p>
+    <br>
+    <br>
+    <p class="mult"><strong>Aqui vai um texto em negrito</strong></p>
+    <p class="mult"><em>Aqui vai ser o texto em italico</em></p>
+    <p class="mult"><s>Aqui vai o corte de texto</s></p>
+    <p #id="primeiroParagrafo"><u>aqui vai um texto sublinhado</u></p>
+    <h1>Titulo 1</h1>
+    <h2>Titulo 2</h2>
+    <h3>Titulo 3</h3>
+    <h4>titulo 4</h4>
+    <h5>Titulo 6</h5>
+    <h6>Titulo 6</h6>
+
+    <ul type="circle">
+        <li>primeiro item</li>
+        <li>segundo item</li>
+        <li>terceiro item</li>
+        <li>quarto item</li>
+
+    </ul>
+
+    <ol type="I">
+        <li>primeiro item</li>
+        <li>segundo item</li>
+        <li>terceiro item</li>
+        <li>quarto item</li>
+    </ol>
+
+    <a href="https:\\www.google.com" target="blank">Link para acessar o google</a>
+
+    <br><br><br>
+
+    <table id="tabela" border="10 px solid black">
+        <tr class="bordaLinha">
+            <th>titulo 1 coluna</th>
+            <th>titulo 2 coluna</th>
+            <th>titulo 3 coluna</th>
+        </tr>
+        <tr>
+            <td class="bordaColuna">primeira coluna</td>
+            <td>Segunda coluna</td>
+            <td>terceira coluna</td>
+        </tr>
+
+        <tr>
+            <td>dado 1 coluna</td>
+            <td>dado 2 coluna</td>
+            <td>dado 3 coluna</td>
+        </tr>
+    </table>
+
+    <br><br><br>
+
+    <form>
+        <span>Nome:</span>
+        <input type="text">
+
+        <span>Senha:</span>
+        <input type="password">
+        <div>
+            <span>Sexo:</span>
+            <input id="M" type="radio" name="selecao" value="M">
+            <input id="F" type="radio" name="selecao" value="F">
+        </div>
+
+
+
+        <span>Selecione:</span>
+        <input type="checkbox" value="Arroz">
+        <input type="checkbox" value="Feijão">
+        <input type="checkbox" value="Carne">
+
+        <input type="button" value="OK">
+        <input type="submit" value="enviar">
+    </form>
+
+    <br><br><br>
+
+    <!-- comentario html
+        -->
+
+
+</body>
+
+</html>
