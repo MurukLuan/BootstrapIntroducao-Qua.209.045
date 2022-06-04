@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+
+    <title>Cadastrar</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div style="text-align: center; margin: 25px auto">
+            <h1>Cadastrar</h1>
+        </div>
+        <div class="container">
+            <form action="\" id="cadastro" class="row g-3" method="POST">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputNome" class="form-label">Nome</label>
+                  <input type="text" class="form-control" id="inputNome">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Endereço</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress2" class="form-label">Complemento</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">Cidade</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">Estado</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Escolha</option>
+                    <option>DF</option>
+                    <option>TO</option>
+                    <option>RJ</option>
+                    <option>SC</option>
+                    <option>RS</option>
+                  </select>
+                </div>
+                <div class="col-md-2">
+                  <label for="inputZip" class="form-label">CEP</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Receber novidades
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-success">Cadastrar</button>
+                </div>
+              </form>
+
+        </div>
+
+        <div style="text-align: center; margin: 25px auto">
+            <h1>Pessoas Cadastradas</h1>
+        </div>
+        <div class="container" style="margin-bottom: 100px;">
+            <table class="table table-hover">
+                <div class="row" >
+                    <div class="col">
+                        <tr>
+                            <th >Nome</th>
+                            <th >Email</th> 
+                            <th >Endereço</th>                           
+                            <th >Complemento</th>
+                            <th >Cidade</th>
+                            <th >UF</th>
+                        </tr>
+                    </div>
+
+                    <div class="col" >
+                        <tr>
+                            <td id="impNome">Nome</td>
+                            <td id="impEmail">Email</td>
+                            <td id="impEndereco">Endereço</td>                            
+                            <td id="impComplemento">Complemento</td>
+                            
+                            <td id="impCidade">Cidade</td>
+                            <td id="impUf">UF</td>
+                        </tr>
+                    </div>
+                </div>
+            </table>
+        </div>
+
+    </div>
+<script src="js/cadastrar.js"></script>
+</body>
+
+</html>

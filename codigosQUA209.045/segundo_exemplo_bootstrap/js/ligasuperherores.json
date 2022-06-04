@@ -1,0 +1,19 @@
+{
+    "squadName": "super hero squad",
+    "homeTown": "Brasilia city",
+    "formed": 2016,
+    "secretBase": "congresso nacional",
+    "active": "true",
+    "membros":[
+        {
+            "nome": "cuecão man",
+            "age": "fazendo hora extra na terra",
+            "identidadeSecreta": "não revelada",
+            "poderes":[
+                "roubar do povo",
+                "fingir demencia",
+                "pedir voto"
+            ]
+        }
+    ]
+}
